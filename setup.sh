@@ -4,7 +4,7 @@
 read -sp "Enter MySQL root password: " MYSQL_PASS
 MYSQL_USER="root"
 MYSQL_HOST="localhost"
-DB_NAME="datavine"
+DB_NAME="Querymetrics"
 
 # Enable error handling
 set -e
