@@ -11,7 +11,7 @@ SQL Functions Used:
     - ORDER BY
 ===============================================================================
 */
-use datavine;
+use Querymetrics;
 
 -- Retrieve a list of unique countries from which customers originate
 SELECT DISTINCT 
