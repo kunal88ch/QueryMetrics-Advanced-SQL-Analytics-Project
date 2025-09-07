@@ -3,23 +3,23 @@
 Create Database and Schemas
 =============================================================
 Script Purpose:
-    This script creates a new database named 'datavine' after checking if it already exists. 
+    This script creates a new database named 'Querymetrics' after checking if it already exists. 
     If the database exists, it is dropped and recreated.
 	
 WARNING:
-    Running this script will drop the entire 'datavine' database if it exists. 
+    Running this script will drop the entire 'Querymetrics' database if it exists. 
     All data in the database will be permanently deleted. Proceed with caution 
     and ensure you have proper backups before running this script.
 */
 
 -- Drop the database if it exists
-DROP DATABASE IF EXISTS datavine;
+DROP DATABASE IF EXISTS Querymetrics;
 
 -- Create the database
-CREATE DATABASE datavine;
+CREATE DATABASE Querymetrics;
 
 -- Use the new database
-USE datavine;
+USE Querymetrics;
 
 -- Create dim_customers table
 CREATE TABLE dim_customers (
@@ -62,5 +62,3 @@ CREATE TABLE fact_sales (
     quantity TINYINT,
     price INT
 );
-
-
